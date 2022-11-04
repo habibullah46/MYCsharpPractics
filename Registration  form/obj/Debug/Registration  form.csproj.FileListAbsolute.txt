@@ -1,0 +1,11 @@
+C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\bin\Debug\Registration  form.exe.config
+C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\bin\Debug\Registration  form.exe
+C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\bin\Debug\Registration  form.pdb
+C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\obj\Debug\Registration  form.csproj.AssemblyReference.cache
+C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\obj\Debug\Registration  form.csproj.SuggestedBindingRedirects.cache
+C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\obj\Debug\Registration__form.Form1.resources
+C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\obj\Debug\Registration__form.Properties.Resources.resources
+C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\obj\Debug\Registration  form.csproj.GenerateResource.cache
+C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\obj\Debug\Registration  form.csproj.CoreCompileInputs.cache
+C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\obj\Debug\Registration  form.exe
+C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\obj\Debug\Registration  form.pdb
