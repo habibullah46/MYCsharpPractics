@@ -9,3 +9,4 @@ C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\obj\Debug\Reg
 C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\obj\Debug\Registration  form.csproj.CoreCompileInputs.cache
 C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\obj\Debug\Registration  form.exe
 C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\obj\Debug\Registration  form.pdb
+C:\Users\TIME COMPUTER\Desktop\MYCsharpPractics\Registration  form\obj\Debug\Registration__form.edit_student.resources
