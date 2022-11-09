@@ -16,7 +16,7 @@ namespace Registration__form
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new edit_student());
+            Application.Run(new Form1());
         }
     }
 }

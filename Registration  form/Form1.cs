@@ -37,13 +37,19 @@ namespace Registration__form
         private void Form1_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'mySQLworkDataSet.lbl_table' table. You can move, or remove it, as needed.
-            this.lbl_tableTableAdapter.Fill(this.mySQLworkDataSet.lbl_table);
+            //this.lbl_tableTableAdapter.Fill(this.mySQLworkDataSet.lbl_table);
 
         }
 
         private void gv_student_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void btn_record_Click(object sender, EventArgs e)
+        {
+            edit_student obj = new edit_student();
+            obj.ShowDialog();
         }
         //private void clear()
         //{

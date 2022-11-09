@@ -44,18 +44,19 @@
             this.btn_save = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.gv_student = new System.Windows.Forms.DataGridView();
-            this.mySQLworkDataSet = new Registration__form.mySQLworkDataSet();
-            this.lbltableBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.lbl_tableTableAdapter = new Registration__form.mySQLworkDataSetTableAdapters.lbl_tableTableAdapter();
             this.registrationIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fatherNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.rollNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lbltableBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.mySQLworkDataSet = new Registration__form.mySQLworkDataSet();
+            this.lbl_tableTableAdapter = new Registration__form.mySQLworkDataSetTableAdapters.lbl_tableTableAdapter();
+            this.btn_record = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gv_student)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mySQLworkDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbltableBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mySQLworkDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -158,7 +159,7 @@
             // btn_save
             // 
             this.btn_save.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_save.Location = new System.Drawing.Point(168, 620);
+            this.btn_save.Location = new System.Drawing.Point(159, 596);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(134, 39);
             this.btn_save.TabIndex = 12;
@@ -195,20 +196,6 @@
             this.gv_student.Size = new System.Drawing.Size(966, 535);
             this.gv_student.TabIndex = 14;
             this.gv_student.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gv_student_CellContentClick);
-            // 
-            // mySQLworkDataSet
-            // 
-            this.mySQLworkDataSet.DataSetName = "mySQLworkDataSet";
-            this.mySQLworkDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // lbltableBindingSource
-            // 
-            this.lbltableBindingSource.DataMember = "lbl_table";
-            this.lbltableBindingSource.DataSource = this.mySQLworkDataSet;
-            // 
-            // lbl_tableTableAdapter
-            // 
-            this.lbl_tableTableAdapter.ClearBeforeFill = true;
             // 
             // registrationIDDataGridViewTextBoxColumn
             // 
@@ -258,11 +245,37 @@
             this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
             this.addressDataGridViewTextBoxColumn.Width = 150;
             // 
+            // lbltableBindingSource
+            // 
+            this.lbltableBindingSource.DataMember = "lbl_table";
+            this.lbltableBindingSource.DataSource = this.mySQLworkDataSet;
+            // 
+            // mySQLworkDataSet
+            // 
+            this.mySQLworkDataSet.DataSetName = "mySQLworkDataSet";
+            this.mySQLworkDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // lbl_tableTableAdapter
+            // 
+            this.lbl_tableTableAdapter.ClearBeforeFill = true;
+            // 
+            // btn_record
+            // 
+            this.btn_record.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_record.Location = new System.Drawing.Point(1141, 620);
+            this.btn_record.Name = "btn_record";
+            this.btn_record.Size = new System.Drawing.Size(213, 39);
+            this.btn_record.TabIndex = 15;
+            this.btn_record.Text = "Edit student Record";
+            this.btn_record.UseVisualStyleBackColor = true;
+            this.btn_record.Click += new System.EventHandler(this.btn_record_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1425, 679);
+            this.Controls.Add(this.btn_record);
             this.Controls.Add(this.gv_student);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btn_save);
@@ -282,8 +295,8 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gv_student)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.mySQLworkDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lbltableBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mySQLworkDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -315,6 +328,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn rollNoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn addressDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Button btn_record;
     }
 }
 
