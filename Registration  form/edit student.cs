@@ -27,7 +27,7 @@ namespace Registration__form
 
         private void cbm_RegisterID_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string Querry = "SELECT * lbl_table WHERE RegistrationID='"+cbm_RegisterID+"'";
+            string Querry = "SELECT * lbl_table WHERE RegistrationID ='"+cbm_RegisterID+"'";
             SqlConnection con = new SqlConnection(helper.Constring);
             con.Open();
             SqlCommand cmd = new SqlCommand(Querry, con);
@@ -54,6 +54,16 @@ namespace Registration__form
                 SqlCommand cmd = new SqlCommand(Query, con);
                 cmd.ExecuteNonQuery();
             }
+        }
+
+        private void btn_update_Click(object sender, EventArgs e)
+        {
+            string SqlQuerry = "UPDATE tbl_student SET Name='"+txt_name.Text+"', FatherName='"+txt_fathername.Text+"',RollNo='"+txt_rollNO.Text+"',Email='"+txt_Email.Text+"',Address='"+txt_Address.Text+ "' WHERE [RegistrationID]='"+cbm_RegisterID.Text+"' "; 
+            SqlConnection con = new SqlConnection();
+            con.Open();
+            SqlCommand cmd = new SqlCommand(SqlQuerry, con);
+            cmd.BeginExecuteNonQuery();
+            MessageBox.Show("UPDATE SUCCESSFULLY");
         }
     }
 }
